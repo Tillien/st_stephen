@@ -2,7 +2,7 @@
 <?php include 'navbar.php';?>
 <!-- Carousel starts -->
 
-<div id="carouselExampleIndicators" class="carousel slide  main-slider" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade main-slider" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -10,16 +10,16 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="4000">
       <img src="./images/lecture.jpg" class="d-block w-100" alt="cimage">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="4000">
       <img src="./images/grads.jpg" class="d-block w-100" alt="cimage">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="4000">
       <img src="./images/w&blibrary.jpg" class="d-block w-100" alt="cimage">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="4000">
       <img src="./images/redd-9o8YdYGTT64-unsplash.jpg" class="d-block w-100" alt="cimage">
     </div>
   </div>
@@ -75,25 +75,87 @@
 
 </section>
 
-<section class="contianer-fluid mt-5">
-<h1 style="color: maroon;">Our Excellence</h1><hr>
+<section class="container mt-5">
+<h1 style="color: maroon;"class="text-center">Our Excellence</h1><hr>
 <div class="row">
   <div class="col">
-     <img src="images/" alt="rec">
+     <img src="images/starhanging.jpg" height="350vh"alt="image">
    </div>
    <div class="col pt-4">
-     <h1 style="color: maroon;">About Design</h1><br>
+     <h1 style="color: maroon;">Science Olympiad</h1><br>
    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia omnis perferendis neque magni accusamus hic. 
       Illo, quibusdam nulla? Eligendi quisquam dicta illum impedit ullam pariatur nostrum asperiores eum consectetur
        adipisci reprehenderit debitis commodi modi nisi tempore cum dolor rerum id officiis. Natus atque, harum 
         obcaecati consequatur fugit veritatis ullam, exercitationem adipisci inventore nesciuvoluptatumn libero hic 
-        accusantium sit velit incidunt aliquid quas sequi dolorumn repudiandae laboriosam?  Ut delectus asperiores
-        animi magni fugiat facere beatae ullam aliquam dolore minus?</p><br>
+        accusantium.</p><br>
 
-        <a href="#" class="btn btn-light px-3 text-center pbtn float-end">Read more</a>
+        <p><b style="color: maroon;"><i class="fas fa-calendar-alt"></i>Awarded on 25th November 2021</b></p>
+
    </div>
 </div>
+</section>
+<!-- Numbers section starts-->
+<section class=" numbers container-fluid text-center pt-5">
+  <div class="row">
+    <div class="col">
+      <p>1200</p><hr>
+      <p>Students</p>
+    </div>
+    <div class="col">
+      <p>193</p><hr>
+      <p>Teachers</p>
+    </div>
+    <div class="col">
+      <p>43</p><hr>
+      <p>Departments</p>
+    </div>
+  </div>
+</section>
+<!-- Numbers section ends -->
 
+<section class="container pt-5">
+  <h1>Latest News and Events</h1>
+  <div class="row g-4">
+    <!--first card starts-->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card">
+              <img src="images/graduatethrow.jpg" alt=" image" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Day 1 Breaking</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat
+                     voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
+              </div>
+            </div>
+        </div>
+
+    <!--first card ends-->
+    <!--second card starts-->
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="images/libraryclear.jpg" alt="program image" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Afternoon Session</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat
+               voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
+            
+        </div>
+      </div>
+  </div>  
+    <!--second card ends-->
+    <!--third card starts-->
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="images/food.jpg" alt="program image" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Evening Session</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat 
+              voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
+            
+        </div>
+      </div>
+  </div>  
+  <!--third card ends-->
+  <a href="#" class="btn btn-danger px-3 text-center ">View More</a>
 </section>
 <?php include 'footer.php';?>    
 

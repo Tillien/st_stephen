@@ -7,3 +7,7 @@ body{
 img{
     height: 40vh;
 }
+.numbers{
+    color: white;
+    background: maroon;
+}
