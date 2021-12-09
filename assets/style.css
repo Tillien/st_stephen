@@ -20,10 +20,10 @@ body{
     color: #fff;
     font-size: 14px;
     margin-bottom: 6px;
-    background-color: #0c10fe;
+    background-color: #800000;
 }
 .icons-bar a:hover{
-    background-color: rgb(0, 47, 255);
+    background-color: #ff0000e0;
     color: #fff;
 }
 .icons-social{
@@ -46,12 +46,12 @@ body{
     font-size: 14px;
     margin-bottom: 6px;
 }
-.img-fluid:hover{
+.img-fluid{
     font-size: 60vh;
     color: red;
 }
 .start .navbar {
-    background: maroon;
+    background: linear-gradient(to right,#ee0707bd, #ff0000e0, #800000);
     padding: 10px 10px;
 }
 .navbar a{
@@ -90,7 +90,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     color: white;
-    background: linear-gradient(to right,#800000, #ce0b0b, #800000);
+    background: linear-gradient(to left,#ee0707bd, #ff0000e0, #800000);
 }
 .numbers .border{
     background: white;
@@ -144,12 +144,13 @@ body{
     list-style-type: none;
 }
 .foot{
-    background-image: url(./image);
-    color: white;
-    background: maroon;
+    color: black;
+    background: linear-gradient(to left,#ee0707bd, #ff0000e0, #800000), url(../../images/bluesparkle.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
-    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    min-height: 35vh;
 }

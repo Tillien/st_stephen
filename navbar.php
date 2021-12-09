@@ -7,7 +7,8 @@
        <img class="img-fluid" src="images/school icon png.png" height="50vh" alt="Logo">
     </div>
     <div class="col-md-11">
-     <h4 style="color: red;">St.Stephen<br>Culinary School <i class="fas fa-graduation-cap" style="color: maroon;"></i></h4>
+     <h4 style="color: black;"><i class="fas fa-chess-queen" style="color: maroon;"></i>
+       St.Stephen<br>Culinary School <i class="fas fa-utensils" style="color: maroon;"></i></h4>
          </div>
     
  </div>
@@ -25,30 +26,18 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Departments</a>
-          <center>
-          <div class="border"></div>
-        </center>
         </li>
+
         <li class="nav-item">
           <a class="nav-link " href="#">About</a>
-          <center>
-            <div class="border"></div>
-          </center>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php" target="top">Contact Us</a>
-          <center>
-            <div class="border"></div>
-          </center>
-        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle
           ="dropdown" aria-expanded="false">
             More
           </a>
-          <center>
-            <div class="border"></div>
-          </center>
+                   
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Students Portal</a></li>
             <li><a class="dropdown-item" href="#">Staff Portal</a></li>
@@ -57,6 +46,10 @@
         </li>
       </ul>
     </div>
+
+       <a href="login.php" class="btn btn-light">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="register.php" class="btn btn-light">Register</a>
+       
   </div>
   </div>
 </nav>

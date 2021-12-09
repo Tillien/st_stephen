@@ -11,13 +11,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="4000">
-      <img src="./images/lecture.jpg" class="d-block w-100" alt="cimage">
+      <img src="./images/trinh-minh-th-vSrBwXX-ftw-unsplash.jpg" class="d-block w-100" alt="cimage">
     </div>
     <div class="carousel-item" data-bs-interval="3500">
       <img src="./images/grads.jpg" class="d-block w-100" alt="cimage">
     </div>
     <div class="carousel-item" data-bs-interval="4000">
-      <img src="./images/w&blibrary.jpg" class="d-block w-100" alt="cimage">
+      <img src="./images/food.jpg" class="d-block w-100" alt="cimage">
     </div>
     <div class="carousel-item" data-bs-interval="3500">
       <img src="./images/redd-9o8YdYGTT64-unsplash.jpg" class="d-block w-100" alt="cimage">
@@ -136,21 +136,21 @@
 <section class=" numbers container-fluid text-center py-5 my-5">
   <div class="row">
     <div class="col">
-      <p>1200</p>
+      <h4>1200</h4>
       <center>
         <div class="border"></div>
       </center>
       <p>Students</p>
     </div>
     <div class="col">
-      <p>193</p>
+      <h4>193</h4>
       <center>
         <div class="border"></div>
       </center>
       <p>Teachers</p>
     </div>
     <div class="col">
-      <p>43</p>
+      <h4>43</h4>
       <center>
         <div class="border"></div>
       </center>
