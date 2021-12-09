@@ -1,3 +1,4 @@
+<section class=" container-fluid start">
 <!--navbar starts-->
 <div class="row ">
   <div class="col-md-6">
@@ -6,7 +7,7 @@
        <img class="img-fluid" src="images/school icon png.png" height="50vh" alt="Logo">
     </div>
     <div class="col-md-11">
-     <h4 style="color: maroon;">St.Stephen<br>School</h4>
+     <h4 style="color: red;">St.Stephen<br>Culinary School <i class="fas fa-graduation-cap" style="color: maroon;"></i></h4>
          </div>
     
  </div>
@@ -23,22 +24,35 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Divisions & Departments</a>
+          <a class="nav-link" aria-current="page" href="#">Departments</a>
+          <center>
+          <div class="border"></div>
+        </center>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="#">About</a>
+          <center>
+            <div class="border"></div>
+          </center>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="contactus.php" target="top">Contact Us</a>
+          <center>
+            <div class="border"></div>
+          </center>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle
+          ="dropdown" aria-expanded="false">
             More
           </a>
+          <center>
+            <div class="border"></div>
+          </center>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Students Portal</a></li>
             <li><a class="dropdown-item" href="#">Staff Portal</a></li>
-            <li><a class="dropdown-item" href="#">News & Events</a></li>
+            <li><a class="dropdown-item" href="#">Surbodinate Portal</a></li>
           </ul>
         </li>
       </ul>
@@ -47,5 +61,5 @@
   </div>
 </nav>
 </div>
-
+</section>
 <!--navbar ends -->

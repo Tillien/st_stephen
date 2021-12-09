@@ -13,13 +13,13 @@
     <div class="carousel-item active" data-bs-interval="4000">
       <img src="./images/lecture.jpg" class="d-block w-100" alt="cimage">
     </div>
-    <div class="carousel-item" data-bs-interval="4000">
+    <div class="carousel-item" data-bs-interval="3500">
       <img src="./images/grads.jpg" class="d-block w-100" alt="cimage">
     </div>
     <div class="carousel-item" data-bs-interval="4000">
       <img src="./images/w&blibrary.jpg" class="d-block w-100" alt="cimage">
     </div>
-    <div class="carousel-item" data-bs-interval="4000">
+    <div class="carousel-item" data-bs-interval="3500">
       <img src="./images/redd-9o8YdYGTT64-unsplash.jpg" class="d-block w-100" alt="cimage">
     </div>
   </div>
@@ -34,39 +34,74 @@
 </div>
 
 <!-- Carousel ends -->
+<!--Main Icons Section-->
+<section class="icon">
+  <!-- left icons -->
+  <div class="icons-bar">
+      <a href="#"><i class="fa fa-address-book"></i><br>Enroll</a>
 
-<!--  -->
-<section class="third pt-5 text-center">
+      <a href="#"><i class="fa fa-plus"></i><br>Apply</a>
+
+      <a href="#"><i class="fa fa-file-signature"></i><br>Join Us</a>
+
+  </div>
+  <!-- right icons -->
+  <div class="icons-social">
+      <a href="#" style="background-color: #3235ff;" title="facebook">
+          <i class="fab fa-facebook" aria-hidden="true"></i></a>
+  
+      <a href="#" style="background-color: #1da1f2;" title="twitter">
+        <i class="fab fa-twitter" aria-hidden="true"></i></a>
+
+      <a href="#" style="background-color: #ff0000;" title="youtube">
+          <i class="fab fa-youtube" aria-hidden="true"></i></a>
+
+  </div>
+</section>
+<!--end of iconsSection-->
+<!-- courses -->
+<section class="third py-5 text-center">
 <h1 style="color: maroon;" >What We are Offering</h1>
-<hr>
+<center>
+  <div class="border"></div>
+</center>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos obcaecati, ea cumque itaque ad, quia 
   explicabo numquam ratione, delectus quos illum sint? Est facere corrupti reiciendis aliquam nisi reprehenderit 
   placeat. Odit porro eius dolorum dolor. Nisi cumque aliquid odit aliquam sunt beatae distinctio praesentium.</p>
 
 </section>
 <!-- Below Description -->
-<section class="container-fluid pt-5 text-center">
+<section class="container-fluid icons py-5 text-center">
   <div class="row g-5">
     <!--first column-->
         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <h1><i class="fas fa-handshake"></i></h1><br>
-                <h5 class="card-title">Brighter future</h5><hr><br>
+              <i class="fas fa-handshake"></i><br>
+                <h5 class="card-title">Brighter future</h5>
+                <center>
+                  <div class="border"></div>
+                </center><br>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem id 
                     animi praesentium illum quo tempore?</p> 
                   </div>
 
         <!--Second Column-->
         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <h1><i class="fas fa-people-carry"></i></h1><br>
-            <h5 class="card-title">Qualified Personnel</h5><hr><br>
+          <i class="fas fa-people-carry"></i><br>
+            <h5 class="card-title">Qualified Personnel</h5>
+            <center>
+            <div class="border"></div><br>
+            </center>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem id 
                 animi praesentium illum quo tempore?</p> 
               </div>
 
         <!--third Column-->
            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <h1><i class="fas fa-book"></i></i></h1><br>
-              <h5 class="card-title">State Of the Art Facilities</h5><hr><br>
+           <i class="fas fa-book"></i></i><br>
+              <h5 class="card-title">State Of the Art Facilities</h5>
+              <center>
+                <div class="border"></div>
+              </center><br>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem id 
                   animi praesentium illum quo tempore?</p> 
                 </div>
@@ -75,8 +110,11 @@
 
 </section>
 
-<section class="container mt-5">
-<h1 style="color: maroon;"class="text-center">Our Excellence</h1><hr>
+<section class="container our my-2">
+<h1 style="color: maroon;"class="text-center">Our Excellence</h1>
+<center>
+  <div class="border"></div>
+</center><br>
 <div class="row">
   <div class="col">
      <img src="images/starhanging.jpg" height="350vh"alt="image">
@@ -95,33 +133,47 @@
 </div>
 </section>
 <!-- Numbers section starts-->
-<section class=" numbers container-fluid text-center pt-5">
+<section class=" numbers container-fluid text-center py-5 my-5">
   <div class="row">
     <div class="col">
-      <p>1200</p><hr>
+      <p>1200</p>
+      <center>
+        <div class="border"></div>
+      </center>
       <p>Students</p>
     </div>
     <div class="col">
-      <p>193</p><hr>
+      <p>193</p>
+      <center>
+        <div class="border"></div>
+      </center>
       <p>Teachers</p>
     </div>
     <div class="col">
-      <p>43</p><hr>
+      <p>43</p>
+      <center>
+        <div class="border"></div>
+      </center>
       <p>Departments</p>
     </div>
   </div>
 </section>
 <!-- Numbers section ends -->
 
-<section class="container pt-5">
-  <h1>Latest News and Events</h1>
-  <div class="row g-4">
+<section class="entertain container py-5">
+  <h1 style="color: maroon;">Latest News and Events</h1>
+  <div class="border"></div>
+    <div class="row g-4">
     <!--first card starts-->
         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card">
               <img src="images/graduatethrow.jpg" alt=" image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Day 1 Breaking</h5>
+                <h5 class="card-title text-muted">20<sup>th</sup>November 2021  By Tillien</h5><br>
+                <center>
+                  <div class="border"></div>
+                </center>
+                <h3 style="color: maroon;">Riverside Camping</h3><br>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat
                      voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
               </div>
@@ -132,9 +184,13 @@
     <!--second card starts-->
     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
       <div class="card">
-        <img src="images/libraryclear.jpg" alt="program image" class="card-img-top">
+        <img src="images/libraryclear.jpg" alt="image" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title">Afternoon Session</h5>
+          <h5 class="card-title text-muted">22<sup>st</sup>November 2021  By Tillien</h5><br>
+          <center>
+            <div class="border"></div>
+          </center>
+          <h3 style="color: maroon;">MIT Hub</h3><br>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat
                voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
             
@@ -145,18 +201,24 @@
     <!--third card starts-->
     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
       <div class="card">
-        <img src="images/food.jpg" alt="program image" class="card-img-top">
+        <img src="images/food.jpg" alt="image" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title">Evening Session</h5>
+          <h5 class="card-title text-muted">24<sup>th</sup>November 2021  By Tillien</h5><br>
+          <center>
+            <div class="border"></div>
+          </center>
+          <h3 style="color: maroon;">NCAA Intercollegiate games</h3><br>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat 
               voluptatem aliquam sit quasi eos est asperiores assumenda.</p>
             
         </div>
       </div>
-  </div>  
-  <!--third card ends-->
-  <a href="#" class="btn btn-danger px-3 text-center ">View More</a>
+  </div>  <br>
+  <a href="#" class="btn btn-danger">View More</a>
 </section>
+  <!--third card ends-->
+ 
+
 <?php include 'footer.php';?>    
 
 
